@@ -63,8 +63,14 @@ export const media = Object.keys(sizes).reduce((acc, label) => {
   return acc
 }, {});
 
-export const setTransition = ({property= "all", time="0.3s", timing="ease-in-out" } = {}) => {
+export const setTransition = ({ property = "all", time = "0.3s", timing = "ease-in-out" } = {}) => {
   return `
   transition:${property} ${time} ${timing}
   `;
+}
+
+export const setShadow = {
+  light: "box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75)",
+  dark: "box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75)",
+  darkest: "box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);"
 }

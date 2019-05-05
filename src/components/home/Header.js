@@ -11,7 +11,7 @@ const Header = () => {
       <Banner
         greeting="Welcome to"
         title="beachwalk resort"
-        text="My name is Jeff and I'm looking for a Services or Marketplace business in the business or electronics industry between $50k - $100k. "
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "
       >
         <PrimaryBtn t="1rem">View details</PrimaryBtn>
       </Banner>
